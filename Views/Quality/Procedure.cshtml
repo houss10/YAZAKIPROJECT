@@ -1,0 +1,12 @@
+﻿@model IEnumerable<WebsiteCms.Models.DocumentModel>
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Model == null || !Model.Any()) 
+{
+    <p>No documents available for Procedure.</p>  <!-- Show a friendly message if no data -->
+}
+else
+{
+    @await Html.PartialAsync("_DocumentTable", Model)  <!-- Async call to the partial view -->
+}

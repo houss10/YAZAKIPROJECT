@@ -1,0 +1,856 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\areas\\admin\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:areas\\admin\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Migrations\\20250903152639_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250903152639_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\areas\\admin\\views\\documents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:areas\\admin\\views\\documents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\models\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:models\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\models\\adocumentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:models\\adocumentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebsiteCms/True/SqlTable/dbo.Documents.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\areas\\admin\\views\\documents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:areas\\admin\\views\\documents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\areas\\admin\\views\\documents\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:areas\\admin\\views\\documents\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\areas\\admin\\views\\documents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:areas\\admin\\views\\documents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebsiteCms/True/SqlTable/dbo.AspNetUserTokens.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebsiteCms/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\areas\\admin\\views\\documents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:areas\\admin\\views\\documents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\shared\\_validationscriptspartial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\shared\\documenttable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\shared\\documenttable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\shared\\_documenttable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\shared\\_documenttable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Migrations\\20250903105919_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250903105919_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\migrations\\20250903104149_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:migrations\\20250903104149_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LEGION\\AppData\\Local\\Temp\\.vsdbgsrc\\398ae81ea547d638768fff59641ffcd9c3babcef64b4b7ab703618baf49613d5\\SqlConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\services\\documentseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:services\\documentseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\obj\\Debug\\net8.0\\YazakiPortalFull.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\YazakiPortalFull.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\controllers\\qualitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:controllers\\qualitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\project\\launch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\project\\launch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\sqa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\sqa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\controllers\\sqacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:controllers\\sqacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\purchasing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\purchasing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\controllers\\purchasingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:controllers\\purchasingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\finance\\procedures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\finance\\procedures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\finance\\instructions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\finance\\instructions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\logistic\\instructions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\logistic\\instructions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\logistic\\procedures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\logistic\\procedures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\controllers\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:controllers\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\controllers\\logisticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:controllers\\logisticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\prod\\p3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\prod\\p3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\prod\\p1p2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\prod\\p1p2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\controllers\\prodp3controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:controllers\\prodp3controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\controllers\\tdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:controllers\\tdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\quality\\lab.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\quality\\lab.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|c:\\users\\legion\\downloads\\yazakiportalfull\\views\\quality\\customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0953C16-FF65-0BD5-A2C3-BBF7ECD56152}|YazakiPortalFull.csproj|solutionrelative:views\\quality\\customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250903152639_InitialCreate2.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Migrations\\20250903152639_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250903152639_InitialCreate2.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Migrations\\20250903152639_InitialCreate2.cs",
+              "RelativeToolTip": "Migrations\\20250903152639_InitialCreate2.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T15:26:40.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DocumentsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Controllers\\DocumentsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DocumentsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAUwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T10:24:53.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Views\\Documents\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Documents\\Create.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Views\\Documents\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Documents\\Create.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T10:29:38.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Services\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Services\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Services\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Services\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T10:04:08.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAswFkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T23:34:36.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentModel.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Models\\DocumentModel.cs",
+              "RelativeDocumentMoniker": "Models\\DocumentModel.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Models\\DocumentModel.cs",
+              "RelativeToolTip": "Models\\DocumentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T00:19:49.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ADocumentModel.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Models\\ADocumentModel.cs",
+              "RelativeDocumentMoniker": "Models\\ADocumentModel.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Models\\ADocumentModel.cs",
+              "RelativeToolTip": "Models\\ADocumentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T00:20:41.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.Documents [Donn\u00E9es]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebsiteCms/True/SqlTable/dbo.Documents.sql",
+              "ToolTip": "dbo.Documents [Donn\u00E9es]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-03T15:14:01.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Views\\Documents\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Documents\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Views\\Documents\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Documents\\Edit.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T10:37:55.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Views\\Documents\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Documents\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Views\\Documents\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Documents\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T10:29:05.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Views\\Documents\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Documents\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Views\\Documents\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Documents\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T10:38:31.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAqwNkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T11:43:42.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.AspNetUsers [Donn\u00E9es]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebsiteCms/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Donn\u00E9es]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-03T12:20:06.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.AspNetUserTokens [Donn\u00E9es]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WebsiteCms/True/SqlTable/dbo.AspNetUserTokens.sql",
+              "ToolTip": "dbo.AspNetUserTokens [Donn\u00E9es]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-03T12:21:02.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T12:01:54.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-03T10:01:36.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Views\\Documents\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Documents\\Details.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Areas\\Admin\\Views\\Documents\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Documents\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T10:39:03.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-03T11:01:16.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T10:32:21.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ValidationScriptsPartial.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\_ValidationScriptsPartial.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\_ValidationScriptsPartial.cshtml.cs",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T11:49:37.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DocumentTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\DocumentTable.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\DocumentTable.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\DocumentTable.cshtml",
+              "RelativeToolTip": "Views\\Shared\\DocumentTable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T11:49:21.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T11:49:16.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_DocumentTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\_DocumentTable.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_DocumentTable.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Shared\\_DocumentTable.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_DocumentTable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T11:47:12.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T10:36:07.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "Properties\\serviceDependencies.json",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "Properties\\serviceDependencies.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-03T11:01:07.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250903105919_InitialCreate1.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Migrations\\20250903105919_InitialCreate1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250903105919_InitialCreate1.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Migrations\\20250903105919_InitialCreate1.cs",
+              "RelativeToolTip": "Migrations\\20250903105919_InitialCreate1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T10:59:19.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SqlConnection.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\AppData\\Local\\Temp\\.vsdbgsrc\\398ae81ea547d638768fff59641ffcd9c3babcef64b4b7ab703618baf49613d5\\SqlConnection.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\398ae81ea547d638768fff59641ffcd9c3babcef64b4b7ab703618baf49613d5\\SqlConnection.cs",
+              "ToolTip": "C:\\Users\\LEGION\\AppData\\Local\\Temp\\.vsdbgsrc\\398ae81ea547d638768fff59641ffcd9c3babcef64b4b7ab703618baf49613d5\\SqlConnection.cs [Lecture seule]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\398ae81ea547d638768fff59641ffcd9c3babcef64b4b7ab703618baf49613d5\\SqlConnection.cs [Lecture seule]",
+              "ViewState": "AgIAAAwCAAAAAAAAAAAAAO4HAAAfAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T10:40:10.603Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250903104149_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Migrations\\20250903104149_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250903104149_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Migrations\\20250903104149_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250903104149_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T10:41:50.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DocumentSeed.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Services\\DocumentSeed.cs",
+              "RelativeDocumentMoniker": "Services\\DocumentSeed.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Services\\DocumentSeed.cs",
+              "RelativeToolTip": "Services\\DocumentSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T22:20:20.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "YazakiPortalFull.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\obj\\Debug\\net8.0\\YazakiPortalFull.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\YazakiPortalFull.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\obj\\Debug\\net8.0\\YazakiPortalFull.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\YazakiPortalFull.AssemblyInfo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAawA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T10:04:34.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "QualityController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\QualityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QualityController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\QualityController.cs",
+              "RelativeToolTip": "Controllers\\QualityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T22:19:04.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T23:30:39.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Launch.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Project\\Launch.cshtml",
+              "RelativeDocumentMoniker": "Views\\Project\\Launch.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Project\\Launch.cshtml",
+              "RelativeToolTip": "Views\\Project\\Launch.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T23:29:04.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Purchasing\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Purchasing\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Purchasing\\Index.cshtml",
+              "RelativeToolTip": "Views\\Purchasing\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T23:27:29.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PurchasingController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\PurchasingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PurchasingController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\PurchasingController.cs",
+              "RelativeToolTip": "Controllers\\PurchasingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T23:27:03.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\SQA\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\SQA\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\SQA\\Index.cshtml",
+              "RelativeToolTip": "Views\\SQA\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T23:23:46.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SQAController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\SQAController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SQAController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\SQAController.cs",
+              "RelativeToolTip": "Controllers\\SQAController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T23:22:51.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Procedures.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Finance\\Procedures.cshtml",
+              "RelativeDocumentMoniker": "Views\\Finance\\Procedures.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Finance\\Procedures.cshtml",
+              "RelativeToolTip": "Views\\Finance\\Procedures.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T23:14:10.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Procedures.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Logistic\\Procedures.cshtml",
+              "RelativeDocumentMoniker": "Views\\Logistic\\Procedures.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Logistic\\Procedures.cshtml",
+              "RelativeToolTip": "Views\\Logistic\\Procedures.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T23:08:47.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Instructions.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Logistic\\Instructions.cshtml",
+              "RelativeDocumentMoniker": "Views\\Logistic\\Instructions.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Logistic\\Instructions.cshtml",
+              "RelativeToolTip": "Views\\Logistic\\Instructions.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T23:07:03.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Instructions.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Finance\\Instructions.cshtml",
+              "RelativeDocumentMoniker": "Views\\Finance\\Instructions.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Finance\\Instructions.cshtml",
+              "RelativeToolTip": "Views\\Finance\\Instructions.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T23:13:58.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LogisticController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\LogisticController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LogisticController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\LogisticController.cs",
+              "RelativeToolTip": "Controllers\\LogisticController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T23:05:25.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FinanceController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\FinanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FinanceController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\FinanceController.cs",
+              "RelativeToolTip": "Controllers\\FinanceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAkAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T22:18:59.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "P3.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Prod\\P3.cshtml",
+              "RelativeDocumentMoniker": "Views\\Prod\\P3.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Prod\\P3.cshtml",
+              "RelativeToolTip": "Views\\Prod\\P3.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T22:20:06.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "P1P2.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Prod\\P1P2.cshtml",
+              "RelativeDocumentMoniker": "Views\\Prod\\P1P2.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Prod\\P1P2.cshtml",
+              "RelativeToolTip": "Views\\Prod\\P1P2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T22:20:02.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProdP3Controller.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\ProdP3Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdP3Controller.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\ProdP3Controller.cs",
+              "RelativeToolTip": "Controllers\\ProdP3Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T22:20:46.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TDController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\TDController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TDController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Controllers\\TDController.cs",
+              "RelativeToolTip": "Controllers\\TDController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T22:20:34.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Customer.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Quality\\Customer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Quality\\Customer.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Quality\\Customer.cshtml",
+              "RelativeToolTip": "Views\\Quality\\Customer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T22:21:42.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Lab.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Quality\\Lab.cshtml",
+              "RelativeDocumentMoniker": "Views\\Quality\\Lab.cshtml",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\YazakiPortalFull\\Views\\Quality\\Lab.cshtml",
+              "RelativeToolTip": "Views\\Quality\\Lab.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T22:22:10.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

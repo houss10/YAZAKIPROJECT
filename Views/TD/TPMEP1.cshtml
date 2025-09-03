@@ -1,0 +1,5 @@
+﻿@model IEnumerable<WebsiteCms.Models.DocumentModel>
+@{
+    ViewData["Title"] = "TD - TPMEP1";
+}
+@await Html.PartialAsync("_DocumentTable", Model)

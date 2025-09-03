@@ -1,0 +1,8 @@
+﻿@model IEnumerable<WebsiteCms.Models.DocumentModel>
+@{
+    ViewData["Title"] = "Quality - P3";
+}
+<h2>Quality - P3</h2>
+<p>This is the <b>Quality</b> controllerâ€™s <b>P3</b> view.</p>
+
+@await Html.PartialAsync("_DocumentTable", Model)

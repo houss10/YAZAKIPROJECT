@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = YazakiPortalFull
+build_property.RootNamespace = YazakiPortalFull
+build_property.ProjectDir = C:\Users\LEGION\Downloads\YazakiPortalFull\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\LEGION\Downloads\YazakiPortalFull
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/Engineering/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5lZXJpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/Finance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/Instructions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3Rpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/IT/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSVRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/Logistic/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naXN0aWNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/MPPSStandards/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVBQU1N0YW5kYXJkc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/ProdP3/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZFAzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/Quality/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbGl0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/RH/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUkhcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/SQA/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1FBXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/TD/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVERcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Downloads/YazakiPortalFull/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

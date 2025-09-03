@@ -1,0 +1,217 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] | YAPT INTRANET PORTAL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/original.css" />
+
+    <!-- Bootstrap (optional for dropdowns/responsive nav) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body id="top">
+    <!-- Top Bar -->
+    <div class="top-nav d-flex justify-content-between align-items-center px-3 py-1 bg-dark text-light">
+	    <span class="today-date">@DateTime.Now.ToString("dddd, dd MMMM yyyy")</span>
+	    <div class="menu-alert">YAPT 2014 | IT Department &copy;</div>
+	    <div class="search-block">
+		    <form method="get" asp-controller="Search" asp-action="Index">
+			    <button class="search-button" type="submit"></button>
+			    <input type="text" name="q" placeholder="Recherche…" />
+		    </form>
+	    </div>
+    </div>
+
+
+ 
+    <!-- Navigation -->
+    <header>
+        <div class="header-content d-flex align-items-center justify-content-between p-2">
+            <div class="logo">
+                <h2>
+                    <a title="YAPT INTRANET PORTAL" asp-controller="Home" asp-action="Index">
+                        <img src="~/css/images/logo.png" alt="YAPT INTRANET PORTAL" style="max-height:50px;" />
+                        <strong>YAPT INTRANET PORTAL YAZAKI Automotive Products Tunisia</strong>
+                    </a>
+                </h2>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+        <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse main-menu" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                        <!-- HOME -->
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">HOME</a>
+                        </li>
+
+                        <!-- QUALITY -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" asp-controller="Quality" asp-action="Index" data-bs-toggle="dropdown">QUALITY</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Quality" asp-action="Procedure">Procedure QA YAPT</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" asp-controller="Quality" asp-action="Instruction">Instruction QA YAPT</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" asp-controller="Quality" asp-action="P1P2">Instruction P1 & P2</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Quality" asp-action="P3">Instruction P3</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Quality" asp-action="Customer">Instruction CUSTOMER</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Quality" asp-action="Lab">Instruction Laboratory Quality</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- IT -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" asp-controller="IT" asp-action="Index" data-bs-toggle="dropdown">IT</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="IT" asp-action="Procedures">PROCEDURES IT</a></li>
+                                <li><a class="dropdown-item" asp-controller="IT" asp-action="Forms">Formulaires IT</a></li>
+                                <li><a class="dropdown-item" href="https://webmail.yazaki-europe.com/">WEB MAIL</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" asp-controller="IT" asp-action="Telephonie">TELEPHONIE</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" asp-controller="IT" asp-action="Voip">VOIP phone</a></li>
+                                        <li><a class="dropdown-item" asp-controller="IT" asp-action="Mobile">Mobile phone</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- ENGINEERING -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" asp-controller="Engineering" asp-action="Index" data-bs-toggle="dropdown">ENGINEERING</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Engineering" asp-action="Procedures">Procedures & Instructions Engineering</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" asp-controller="Engineering" asp-action="Normes">NORMES</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" asp-controller="Engineering" asp-action="Fiat">Normes Fiat</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Engineering" asp-action="BMW">Normes BMW</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- TD -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" asp-controller="TD" asp-action="Index" data-bs-toggle="dropdown">TD</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="TD" asp-action="Procedures">Procedures TD YAPT</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" asp-controller="TD" asp-action="Instructions">Instructions TD YAPT</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" asp-controller="TD" asp-action="TPME">Instructions TD YAPT TPME</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" asp-controller="TD" asp-action="TPMEP1">TPME P1</a></li>
+                                                <li><a class="dropdown-item" asp-controller="TD" asp-action="TPMEP2">TPME P2</a></li>
+                                                <li><a class="dropdown-item" asp-controller="TD" asp-action="TPMEP3">TPME P3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- RH -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" asp-controller="RH" asp-action="Index" data-bs-toggle="dropdown">RH</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" asp-controller="RH" asp-action="Documents">Documents YAPT RH</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" asp-controller="RH" asp-action="Procedures">Procedures RH YAPT</a></li>
+                                        <li><a class="dropdown-item" asp-controller="RH" asp-action="Instructions">Instructions RH YAPT</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" asp-controller="RH" asp-action="JobDescription">Job description</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" asp-controller="RH" asp-action="SupplyChain">Supply Chain / Logistics / Purchase</a></li>
+                                                <li><a class="dropdown-item" asp-controller="RH" asp-action="Fiat">Customer Segment Fiat</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" asp-controller="RH" asp-action="Organigramme">Organigramme</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" asp-controller="RH" asp-action="Policy">RH Policy</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- LOGISTIC -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" asp-controller="Logistic" asp-action="Index" data-bs-toggle="dropdown">LOGISTIC</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Logistic" asp-action="Procedures">Procedures Logistique YAPT</a></li>
+                                <li><a class="dropdown-item" asp-controller="Logistic" asp-action="Instructions">Instructions Logistique YAPT</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- FINANCE -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" asp-controller="Finance" asp-action="Index" data-bs-toggle="dropdown">FINANCE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Finance" asp-action="Procedures">Procedures Finance YAPT</a></li>
+                                <li><a class="dropdown-item" asp-controller="Finance" asp-action="Instructions">Instructions Finance YAPT</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Others -->
+                        <li class="nav-item"><a class="nav-link" asp-controller="Prod" asp-action="P3">PROD P3</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="SQA" asp-action="Index">SQA</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="MPPS" asp-action="Index">MPPS STANDARDS</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Instructions" asp-action="Coupe">Instructions de coupe</a></li>
+
+                        <!-- EHS -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" asp-controller="EHS" asp-action="Index" data-bs-toggle="dropdown">EHS</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="EHS" asp-action="Procedures">Procedures EH&S</a></li>
+                                <li><a class="dropdown-item" asp-controller="EHS" asp-action="Instructions">Instructions EH&S</a></li>
+                                <li><a class="dropdown-item" asp-controller="EHS" asp-action="Manual">EHS Manual</a></li>
+                                <li><a class="dropdown-item" asp-controller="EHS" asp-action="Policy">EHS Policy</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" asp-controller="Project" asp-action="Launch">Project Launch</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Prod" asp-action="P1P2">PROD P1/P2</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Purchasing" asp-action="Index">PURCHASING</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- Main -->
+    <main class="container my-4">
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light text-center py-3">
+        &copy; @DateTime.Now.Year - YAPT INTRANET PORTAL | Powered by ASP.NET Core MVC
+    </footer>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

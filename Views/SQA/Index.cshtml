@@ -1,0 +1,10 @@
+@model IEnumerable<WebsiteCms.Models.DocumentModel>
+@{
+    ViewData["Title"] = "SQA";
+}
+<div class="card shadow-sm">
+  <div class="card-header bg-dark text-white">SQA</div>
+  <div class="card-body">
+        @await Html.PartialAsync("_DocumentTable", Model)
+  </div>
+</div>

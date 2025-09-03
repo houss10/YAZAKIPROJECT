@@ -1,0 +1,38 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#f6f6f6;}
+.navbar-yazaki{background:#1f1f1f;}
+.navbar-yazaki .navbar-brand{font-weight:700;letter-spacing:.5px;}
+.brand-bar{background:#d32f2f;height:6px;width:100%;}
+.header-line{background:#fff;border-bottom:1px solid #eee;}
+.card-home .card-header{background:#d32f2f;color:#fff;font-weight:700;}
+.footer{background:#1f1f1f;color:#fff;}
+.table-home td{vertical-align:middle;}
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    font-size: 14px;
+}
+
+.logo strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.search-block input {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-block .search-button {
+    background: url('/css/images/search-icon.png') no-repeat center;
+    width: 24px;
+    height: 24px;
+    border: none;
+}
+

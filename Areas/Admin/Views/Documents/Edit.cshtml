@@ -1,0 +1,72 @@
+﻿@model WebsiteCms.Models.ADocumentModel
+
+@{
+    ViewData["Title"] = "Edit Document";
+}
+
+<h2>Edit Document</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="Category" class="form-label"></label>
+        <input asp-for="Category" class="form-control" />
+        <span asp-validation-for="Category" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Number" class="form-label"></label>
+        <input asp-for="Number" class="form-control" />
+        <span asp-validation-for="Number" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ControlNumber" class="form-label"></label>
+        <input asp-for="ControlNumber" class="form-control" />
+        <span asp-validation-for="ControlNumber" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ControlNumberUrl" class="form-label"></label>
+        <input asp-for="ControlNumberUrl" class="form-control" />
+        <span asp-validation-for="ControlNumberUrl" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="RelatedDocument" class="form-label"></label>
+        <input asp-for="RelatedDocument" class="form-control" />
+        <span asp-validation-for="RelatedDocument" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="RelatedDocumentUrl" class="form-label"></label>
+        <input asp-for="RelatedDocumentUrl" class="form-control" />
+        <span asp-validation-for="RelatedDocumentUrl" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Issue" class="form-label"></label>
+        <input asp-for="Issue" class="form-control" />
+        <span asp-validation-for="Issue" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="IssueDate" class="form-label"></label>
+        <input asp-for="IssueDate" class="form-control" type="date" />
+        <span asp-validation-for="IssueDate" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-area="Admin" asp-controller="Documents" asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
